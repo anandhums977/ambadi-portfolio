@@ -11,31 +11,33 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <style>
-            body {
-                font-family: "Open Sans", sans-serif;
-                background: #000;
-                color: #fafafa;
-                
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-                height: 100vh;
-            }
-            
-            div {
-                margin: auto;
-            }
-            
-            h1 {
-                font-size: 1.17em;
-            }
-            
-            @media (max-width: 425px) {
-                h1 {
-                    font-size: .83em;
-                }
-            }
-        </style>
+          body {
+              font-family: "Open Sans", sans-serif;
+              background: #000;
+              color: #fafafa;
+              display: flex;
+              justify-content: center; /* Center horizontally */
+              align-items: center; /* Center vertically */
+              height: 100vh;
+              margin: 0; /* Remove default margin */
+          }
+          
+          div {
+              text-align: center; /* Center contents inside div */
+          }
+          
+          h1 {
+              font-size: 1.17em;
+              margin-top: 20px; /* Add some space between the SVG and heading */
+          }
+          
+          @media (max-width: 425px) {
+              h1 {
+                  font-size: .83em;
+              }
+          }
+      </style>
+      
     </head>
     <body>
         <!--[if lt IE 9]>
